@@ -1,0 +1,21 @@
+crie um script para fazer
+
+passos:
+
+1 - criar um arquivo .sh
+2 - colocar em seu conteudo do arquivo sh os comandos abaixo
+  - mkdir criado_via_script
+  - echo "um teste no arquivo com dadoo" > arquivo_com_dado.txt
+  - cat <<EOF > mais_um_arquivo.txt
+    - um teste no arquivo com dadoo
+    texto
+    EOF
+    - echo "------------------"
+    - cat arquivo_com_dado.txt
+    - echo "-----------------"
+    - cat maus um arquivo.txt
+3 - dar permissao a este arquivo para execução
+4 - executar o arquivo .sh
+
+OBS: fazer tudo isso em somente um script
+
